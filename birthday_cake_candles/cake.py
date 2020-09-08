@@ -19,7 +19,7 @@ def birthdayCakeCandles(candles):
     d = max(candles)
     for i in range(len(candles)):
         if(candles[i]==d):
-            c+=1
+            c=c+1
     return c
 
 if __name__ == '__main__':
